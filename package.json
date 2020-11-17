@@ -1,0 +1,15 @@
+{
+  "name": "core_sauveur",
+  "version": "0.0.1",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://dev.greywolflab.xyz/mimi/core.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
