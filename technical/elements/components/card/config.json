@@ -1,0 +1,4 @@
+{
+    "lg":"h-64 w-48 lg:h-92 lg:w-1/2 lg:max-w-xs",
+    "sm":"h-48 w-32 lg:h-72 lg:w-64 lg:max-w-xs"
+}

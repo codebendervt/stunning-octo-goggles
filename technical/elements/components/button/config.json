@@ -1,0 +1,10 @@
+{
+    "btn":{
+        "active":"button active font-default-black cursor-emoji ",
+        "inactive":"button inactive font-default-black cursor-emoji "
+        },
+    "btn-sm":{
+        "active":"button-sm active font-default-black cursor-emoji",
+        "inactive":"buton-sm inactive font-default-black cursor-emoji hover:text-black"
+        }
+}

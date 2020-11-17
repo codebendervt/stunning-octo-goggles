@@ -1,0 +1,8 @@
+{
+    "layout":{
+        "controlCenter":{
+            "bottom":"control-center bottom",
+            "top":"control-center top"
+        }
+    }
+}

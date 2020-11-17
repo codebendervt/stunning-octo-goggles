@@ -1,0 +1,18 @@
+{
+    "plane":{
+        "in":"animated slideInDown",
+        "out":"animated slideOutUp"
+        },
+    "app":{
+        "in":"animated slideInDown",
+        "out":"animated slideOutUp"
+        },
+    "splash":{
+        "in":"animated slideInDown",
+        "out":"animated slideOutUp"
+        },
+    "alert":{
+            "in":"animated slideInUp",
+            "out":"animated slideOutDown"
+            }      
+}

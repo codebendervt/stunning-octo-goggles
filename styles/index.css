@@ -1,0 +1,68 @@
+@import url("https://codebender.azureedge.net/toolbox/style.css");
+
+
+
+/* @import "/coreletts/alice/layouts/control.center/index.css"; */
+
+/* purgecss start ignore */
+@tailwind base;
+
+@tailwind components;
+
+
+/* purgecss end ignore */
+
+/* body{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} */
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.custom.active{
+@apply text-white
+}
+
+.custom.inactive{
+@apply text-grey
+}
+.custom.inactive:hover{
+  @apply text-white
+}
+
+.cursor-emoji {
+    cursor: url(images/index.png), auto;
+  }
+
+  /* .canvas{
+    background-image: url('./images/poster.jpg');
+    background-size: cover;
+  } */
+
+/* Small (sm) */
+@media (min-width: 640px) { /* ... */ }
+
+/* Medium (md) */
+@media (min-width: 768px) { 
+
+ }
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+
+
+ }
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) { /* ... */ }
+
+@tailwind utilities;

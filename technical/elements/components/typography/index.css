@@ -1,0 +1,92 @@
+/* make this more modular when the time is right */
+
+.typography-text{
+   
+    @apply text-current text-left tracking-tight leading-relaxed capitalize align-baseline whitespace-normal 
+  }
+
+  .title{
+    font-family: 'GeomanistBlack', sans-serif;
+    @apply text-xl break-normal 
+  }
+
+  .card-title{
+    font-family: 'GeomanistBold', sans-serif;
+    @apply text-lg break-normal
+  }
+  .card-preface{
+    font-family: 'GeomanistRegular', sans-serif;
+    @apply text-base break-normal
+  }
+
+  .label{
+    font-family: 'GeomanistBlack', sans-serif;
+    @apply text-4xl break-normal  leading-tight
+  }
+
+  .theplug-question{
+    font-family: 'GeomanistBlack', sans-serif;
+    @apply text-2xl break-normal;
+  }
+
+  .descrption{
+    @apply truncate
+  }
+
+
+  
+
+  /* Small (sm) */
+@media (min-width: 640px) { /* ... */ }
+
+/* Medium (md) */
+@media (min-width: 768px) { 
+  .title{
+    font-family: 'GeomanistBlack', sans-serif;
+    @apply text-3xl
+}
+.card-title{
+  font-family: 'GeomanistBlack', sans-serif;
+  @apply text-2xl 
+}
+.card-preface{
+  font-family: 'GeomanistMedium', sans-serif;
+  @apply text-xl 
+}
+.label{
+  font-family: 'GeomanistBlack', sans-serif;
+  @apply text-5xl break-normal 
+}
+.theplug-question{
+  font-family: 'GeomanistBlack', sans-serif;
+  @apply text-2xl break-normal leading-tight;
+}
+ }
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  .title{
+    font-family: 'GeomanistBlack', sans-serif;
+    @apply text-5xl;
+}
+
+.card-title{
+  font-family: 'GeomanistBlack', sans-serif;
+  @apply text-3xl 
+}
+.card-preface{
+  font-family: 'GeomanistMedium', sans-serif;
+  @apply text-2xl 
+}
+.label{
+  font-family: 'GeomanistBlack', sans-serif;
+  @apply text-5xl break-normal 
+}
+.theplug-question{
+  font-family: 'GeomanistBlack', sans-serif;
+  @apply text-5xl break-normal leading-tight;
+}
+ }
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) { /* ... */ }

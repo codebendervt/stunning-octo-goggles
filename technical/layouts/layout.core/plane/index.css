@@ -1,0 +1,57 @@
+/* @import '../../../../../../node_modules/animate.css/source/sliding_entrances/slideInDown.css';
+@import '../../../../../../node_modules/animate.css/source/sliding_exits/slideOutUp.css';
+@import '../../../../../../node_modules/animate.css/source/_base.css';
+@import '../../../../../../node_modules/animate.css/source/_vars.css'; */
+
+.plane{
+    @apply absolute inset-0  z-30 bg-white w-screen h-screen shadow 
+}
+
+.alert{
+    @apply absolute inset-x-0 bottom-0 z-30 bg-transparent w-full h-64  
+}
+
+
+.full{
+    @apply  h-screen 
+}
+
+.app{
+    height: 90vh;
+}
+
+.plane.splash{
+    @apply  h-screen 
+}
+ /* Small (sm) */
+ @media (min-width: 640px) { /* ... */ }
+
+ /* Medium (md) */
+ @media (min-width: 768px) { 
+     .full{
+         @apply h-64
+     }
+     .app{
+        @apply h-64 inset-auto
+    }
+
+    .alert{
+        @apply w-full
+    }
+  }
+ 
+ /* Large (lg) */
+ @media (min-width: 1024px) {
+     .full{
+         @apply h-64 inset-auto
+     }
+     .alert{
+        @apply w-full
+    }
+     .app{
+        @apply h-64 inset-auto
+    }
+ }
+ 
+ /* Extra Large (xl) */
+ @media (min-width: 1280px) { /* ... */ }

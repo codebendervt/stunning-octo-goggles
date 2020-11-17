@@ -1,0 +1,9 @@
+{
+    "clientID" : "8d4cdd27-0e57-41a5-82c2-9ae2aab818b2",
+    "tenant" : "common",
+    "redirectUri" : "http://localhost:1106/",
+    "scope":"openid https://management.azure.com/user_impersonation"
+    
+}
+
+//https://graph.microsoft.com/User.Read 
