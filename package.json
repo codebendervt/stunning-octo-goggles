@@ -1,5 +1,5 @@
 {
-  "name": "core_sauveur",
+  "name": "sauveur_core",
   "version": "0.0.3",
   "description": "",
   "main": "technical/index.js",
@@ -10,6 +10,13 @@
     "type": "git",
     "url": "http://dev.greywolflab.xyz/mimi/core.git"
   },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "react": "^17.0.0-rc.1",
+    "react-dom": "^17.0.0-rc.1",
+    "react-scripts": "3.4.1"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "files": [ "styles", "technical"]
 }
