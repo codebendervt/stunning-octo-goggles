@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useReducer, useDebugValue } from 'react';
-import { Canvas, Plane, Stage, Space, ControlCenter, Label, LgCard, Button,Bucket } from '../../../../../alice';
+import { Canvas, Plane, Stage, Space, ControlCenter, Label, LgCard, Button,Bucket } from '../../../../';
 import { $f, $gbd,$dls,$try,$setLocalStorage } from '../../../../core/utility';
 //import config from './config.json';
 //import './index.css';
