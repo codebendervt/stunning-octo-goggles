@@ -1,6 +1,6 @@
 {
   "name": "core_sauveur",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "technical/index.js",
   "scripts": {
