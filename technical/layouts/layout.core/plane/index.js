@@ -1,5 +1,5 @@
 import React, {useState, useEffect, useReducer,useDebugValue} from 'react';
-import './index.css';
+import './index.module.css';
 import config from './config.json';
 import animation from './animate.json';
 //import navCore from '../nav/navCore';

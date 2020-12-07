@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useReducer, useDebugValue } from 'react';
-import './index.css'
+import './index.module.css'
 import {$f,$try, states} from '../../../core/utility';
 import config from './config.json'
 

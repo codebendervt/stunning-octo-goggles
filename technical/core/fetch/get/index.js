@@ -1,11 +1,10 @@
 import React, { useState, useEffect, useReducer, useDebugValue } from 'react';
 import { Splash } from '../../..';
 import getData from '../fetch';
+import navCore from 'sauveur_elements/nav/navCore'
 
-//import navCore from '../elements/nav/navCore'
 
-
-// { page: state.page + 1 }
+const initialState = {status:404};
 /**
  * Core nav for project china, a whole app is managed by this function.
  * @module Fetch
@@ -13,23 +12,22 @@ import getData from '../fetch';
  * @param {object} props.bucket - This is where the data will be stored.
  */
 function core(props) {
-    // const [state, dispatch] = useReducer(navCore, initialState);
+     //const [state, dispatch] = useReducer(navCore, initialState);
     // const $dd = (type, object, action) => dispatch({type: type, object:object, data:action});
     const [load, setLoad] = useState(false)
     const [animateState, setAnimate] = useState('animated fadeIn');
-
+    const [timer, setTimer] = useState(null);
 
     useEffect(() => {
 
 
         if (!load) {
-            getData(props.url).then(data => initData(data)).catch(err => console.error('can not get data: ',err))
+            getData(props.url).then(data => initData(data)).catch(err => console.error('can not get data: ', err))
             console.log('getting your data',);
         }
 
         return () => {
-
-
+            clearTimeout(timer);
         }
 
 
@@ -38,19 +36,25 @@ function core(props) {
 
     const initData = (data) => {
         console.log(data)
-
-        setTimeout(()=> {setLoad(true)},2000)
+        props.dispatch(data) 
+        setTimer(setTimeout(() => { 
+            setLoad(true);
+            clearTimeout(timer);
+        }, 2000))
 
         setAnimate('animated fadeOut')
+     
     }
 
 
 
     return (
 
-        <div className={animateState}>
+        <div className={animateState + " overflow-hidden w-screen h-full absolute bg-black"}>
+            {
+                (!load ? (<Splash></Splash>) : <></>)
+            }
 
-            (!load ?  (<Splash></Splash>) : <></>)
 
         </div>
 

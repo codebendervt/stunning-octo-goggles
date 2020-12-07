@@ -40,7 +40,7 @@ button:focus {
 }
 
 .cursor-emoji {
-    cursor: url(images/index.png), auto;
+    cursor: url('/images/index.png'), auto;
   }
 
   /* .canvas{

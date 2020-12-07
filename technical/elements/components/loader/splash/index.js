@@ -1,5 +1,6 @@
-import React, {useState, useEffect} from 'react';
-import image from 'url:sauveur_style/images/icon_alt.png'
+import React, { useState, useEffect } from 'react';
+//import image from 'url:sauveur_style/images/icon_alt.png'
+import image from 'sauveur_images/icon_alt.png'
 // import {$f} from '../../../core/utility';
 // import './index.css'
 // import config from './config.json'
@@ -15,23 +16,23 @@ function element(props) {
   //const [state, dispatch] = useReducer(navCore, initialState);
   const [animateState, setAnimateState] = useState('animated fadeIn');
 
-  
+
 
   useEffect(() => {
 
 
-    return () =>{
-       
-    setAnimateState('animated fadeOut')
+    return () => {
+
+      setAnimateState('animated fadeOut')
     }
- 
 
-  },[]);
 
- 
+  }, []);
+
+
   return (
     <div className={"flex w-screen h-screen justify-center items-center " + animateState}>
-          <img className="w-24 animate-pulse" src={image}></img>
+      <img className="w-24 animate-pulse" src={"/images/icon_alt.png"}></img>
     </div>
   );
 }

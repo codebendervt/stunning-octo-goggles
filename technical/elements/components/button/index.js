@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useReducer,useDebugValue} from 'react';
 import navCore from '../../nav/navCore';
 import {$f,states} from '../../../core/utility';
-import './index.css'
+import './index.module.css'
 import config from './config.json'
 
 const initialState = { active: false};

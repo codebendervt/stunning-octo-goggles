@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useReducer, useDebugValue } from 'react';
-import { Canvas, Plane, Stage, Space, ControlCenter, Label, LgCard, Button, Form, Alert } from '../../../../';
+import { Canvas, Plane, Stage, Space, ControlCenter, Label, LgCard, Button, Form, Alert } from 'sauveur_technical';
 import config from './config.json';
-import './index.css';
+import './index.module.css';
 import { $f, $dd, states, $d } from '../../../core/utility';
-import image from 'url:sauveur_style/images/deafult.jpg'
+//import image from 'url:sauveur_style/images/deafult.jpg'
 import Content from './utils/content';
 import Order from './utils/order';
 import Identity from './utils/identity';

@@ -4,7 +4,8 @@ import {$f} from '../../../../core/utility';
 //import config from './config.json';
 //import './index.css';
 //import { $f } from '../../../core/utility';
-import image from 'url:sauveur_style/images/deafult.jpg'
+//import image from 'url:sauveur_style/images/deafult.jpg'
+import image from 'sauveur_style/images/deafult.jpg'
 //import navCore from '../nav/navCore';
 
 

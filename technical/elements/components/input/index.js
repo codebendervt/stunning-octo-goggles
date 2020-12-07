@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useReducer, useDebugValue } from 'react';
 import { $f } from '../../../core/utility';
-import './index.css'
+import './index.module.css'
 import { Space, Label } from '../../../'
 //import config from './config.json'
 //import navCore from '../nav/navCore';
@@ -46,7 +46,7 @@ function element(props) {
  <Label type="label">{labelTwo}</Label></>)}
           
             <Space m1="x-0">
-            <input type={type} pattern={pattern} className="w-64 bg-transparent w-auto text-3xl lg:text-5xl placeholder-grey font-default-black appearance-none animated fadeIn" placeholder={placeholder} autoFocus onChange={(e) => props.dispatch(e.target.value)}></input>
+            <input type={type} pattern={pattern} className="w-64 bg-transparent w-auto text-3xl lg:text-5xl placeholder-grey font-default-black appearance-none animated fadeIn input" placeholder={placeholder} autoFocus onChange={(e) => props.dispatch(e.target.value)}></input>
            
             </Space>
         </div>

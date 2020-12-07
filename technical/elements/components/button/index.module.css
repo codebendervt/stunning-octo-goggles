@@ -1,0 +1,106 @@
+
+
+/* this helps with making sure no hightliting occurs on mobile */
+/* body{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  } */
+
+
+.button{
+    @apply  capitalize  flex-grow-0 leading-loose select-none appearance-none outline-none mx-2
+    
+}
+
+.button-sm.active{
+    @apply  text-xl ; 
+}
+
+.buton-sm.inactive{
+    @apply  text-xs ;
+}
+
+
+.inactive {
+    @apply  text-2xl ;
+}
+
+.active{
+    @apply  text-3xl ; 
+}
+
+.default.inactive {
+    @apply  text-grey ;
+}
+
+
+
+
+/* Small (sm) */
+@media (min-width: 640px) { /* ... */ }
+
+/* Medium (md) */
+@media (min-width: 768px) { 
+    .button-sm.active{
+        @apply  text-4xl ; 
+    }
+    
+    .buton-sm.inactive{
+        @apply  text-3xl ;
+    }
+
+    .inactive {
+        @apply  text-5xl ;
+    }
+    
+    .active{
+        @apply  text-6xl; 
+    }
+    .button{
+        @apply leading-tight flex-grow-0;
+    }
+    .button :hover{
+        @apply text-black
+    }
+    .default.active{
+        @apply  text-black ; 
+    }
+    
+    .default.inactive:hover {
+        @apply  text-black ;
+    }
+ }
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+
+    .button-sm.active{
+        @apply  text-4xl ; 
+    }
+    
+    .buton-sm.inactive{
+        @apply  text-3xl  ;
+    }
+
+    .inactive {
+        @apply  text-5xl ;
+    }
+    
+    .active{
+        @apply  text-6xl; 
+    }
+    .button{
+        @apply leading-tight flex-grow-0;
+    }
+    .default.active{
+        @apply  text-black ; 
+    }
+    
+    .default.inactive:hover {
+        @apply  text-black ;
+    }
+
+  
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) { /* ... */ }

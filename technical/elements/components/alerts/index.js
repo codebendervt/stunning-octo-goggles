@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useReducer,useDebugValue} from 'react';
 import {$f} from '../../../core/utility';
 import {Plane,Space,Button} from '../../../'
-import './index.css'
+import './index.module.css'
 ///import config from './config.json'
 //import navCore from '../nav/navCore';
 
