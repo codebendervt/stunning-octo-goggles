@@ -26,9 +26,6 @@
  
  /* Large (lg) */
  @media (min-width: 1024px) {
-     .canvas{
-         @apply scrolling-auto 
-     }
  }
  
  /* Extra Large (xl) */
