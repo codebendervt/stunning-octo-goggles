@@ -1,4 +1,4 @@
-import {Card, Label,SmCard,LgCard,InputText,InputNumber,Button,Form,Select,Alert} from './components'
+import {Card, Label,SmCard,LgCard,InputText,InputNumber,Button,Form,Select,Alert,Splash} from './components'
 
 
-export {Card,Label,SmCard,LgCard,InputText,InputNumber,Button,Form,Select,Alert};
+export {Card,Label,SmCard,LgCard,InputText,InputNumber,Button,Form,Select,Alert,Splash};
