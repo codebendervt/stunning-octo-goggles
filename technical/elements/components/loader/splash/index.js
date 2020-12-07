@@ -31,7 +31,7 @@ function element(props) {
 
 
   return (
-    <div className={"flex w-screen h-screen justify-center items-center " + animateState}>
+    <div className={"flex w-screen h-screen justify-center items-center relative " + animateState}>
       <img className="w-24 h-24 animate-pulse" src={"images/icon_alt.png"}></img>
     </div>
   );
