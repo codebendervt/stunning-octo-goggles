@@ -16,7 +16,6 @@ function core(props) {
     // const $dd = (type, object, action) => dispatch({type: type, object:object, data:action});
     const [load, setLoad] = useState(false)
     const [animateState, setAnimate] = useState('animated fadeIn');
-    const [timer, setTimer] = useState(null);
 
     useEffect(() => {
 
@@ -27,7 +26,7 @@ function core(props) {
         }
 
         return () => {
-            clearTimeout(timer);
+            setAnimate('animated fadeOut')
         }
 
 
@@ -37,12 +36,8 @@ function core(props) {
     const initData = (data) => {
         console.log(data)
         props.dispatch(data) 
-        setTimer(setTimeout(() => { 
-            setLoad(true);
-            clearTimeout(timer);
-        }, 2000))
-
-        setAnimate('animated fadeOut')
+        setLoad(true);
+        
      
     }
 
@@ -50,7 +45,7 @@ function core(props) {
 
     return (
 
-        <div className={animateState + " overflow-hidden w-screen h-full absolute bg-black"}>
+        <div className={animateState}>
             {
                 (!load ? (<Splash></Splash>) : <></>)
             }
