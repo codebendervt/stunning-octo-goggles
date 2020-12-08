@@ -38,7 +38,7 @@ function core(props) {
 
         setTimeout( () => {
         
-            window.location = "https://wa.me/27815206804?text=I'm%20interested%20in"+props.message.replace(' ', '%20');
+            window.location = "https://wa.me/27815206804?text=I'm%20interested%20in%20"+props.message.replace(' ', '%20');
         }, 2000)
 
     }
