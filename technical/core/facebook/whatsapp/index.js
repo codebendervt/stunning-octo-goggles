@@ -47,7 +47,7 @@ function core(props) {
 
     return (
 
-      <a href="#find" className="cursor-emoji appearance-none text-xl lg:text-2xl xl:text-3xl" onClick={ () => openLink()}>Learn More</a>
+      <a href="#find" className=" font-default-accent cursor-emoji appearance-none text-xl lg:text-2xl xl:text-3xl" onClick={ () => openLink()}>Learn More</a>
 
 
     );

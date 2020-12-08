@@ -1,10 +1,55 @@
 
 /* purgecss start ignore */
-@import url("https://codebender.azureedge.net/toolbox/style.css");
-
 @tailwind base;
 
 @tailwind components;
+
+
+@font-face {
+  font-family: BasierBold;
+  src: url('/font/Basier/Basier Square Webfont/Basier-Square-bold-webfont/basiersquare-bold-webfont.tff');
+}
+
+@font-face {
+  font-family: BasierRegular;
+  src: url('/font/Basier/Basier Square Webfont/Basier-Square-regular-webfont/basiersquare-regular-webfont.ttf');
+}
+
+@font-face {
+  font-family: BasierMonoCircleRegular;
+  src: url('/font/Basier-Mono/Basier-Mono-Circle-Webfont/basiercirclemono-regular-webfont.ttf');
+}
+
+@font-face {
+  font-family: Noway;
+  src: url('/font/Noway/Noway Roman Webfont/Noway-Bold-webfont/noway-bold-webfont.ttf');
+}
+
+.font-default-title{
+  font-family: 'BasierBold', sans-serif
+}
+
+
+.font-default-regular{
+  font-family: 'BasierRegular', sans-serif
+}
+
+
+.font-default-paragraph{
+  font-family: 'BasierMonoCircleRegular', sans-serif
+}
+
+
+.font-default-accent{
+  font-family: 'Noway', sans-serif
+}
+
+
+/* .font-default{
+  font-family: 'GeomanistRegular', sans-serif
+} */
+
+
 .cursor-emoji {
   cursor: url('/images/index.png'), auto;
 }
