@@ -41,7 +41,7 @@ button:focus {
 
 .cursor-emoji {
     cursor: url('/images/index.png'), auto;
-  }
+}
 
   /* .canvas{
     background-image: url('./images/poster.jpg');
