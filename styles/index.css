@@ -8,7 +8,9 @@
 @tailwind base;
 
 @tailwind components;
-
+.cursor-emoji {
+  cursor: url('/images/index.png'), auto;
+}
 
 /* purgecss end ignore */
 
@@ -40,9 +42,7 @@ button:focus {
 }
 
 
-.cursor-emoji {
-    cursor: url('/images/index.png'), auto;
-}
+
 
   /* .canvas{
     background-image: url('./images/poster.jpg');
