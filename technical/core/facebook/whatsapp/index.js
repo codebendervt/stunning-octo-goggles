@@ -36,7 +36,9 @@ function core(props) {
     const openLink = () => {
 
         setTimeout( () => {
-            window.open("https://wa.me/27815206804?text=I'm%20interested%20in%20your")
+            // window.open("https://wa.me/27815206804?text=I'm%20interested%20in%20your",'_system')
+
+            window.location = "https://wa.me/27815206804?text=I'm%20interested%20in%20your";
         }, 2000)
 
     }
