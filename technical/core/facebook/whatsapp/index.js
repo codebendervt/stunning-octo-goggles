@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useReducer, useDebugValue } from 'react';
-import 'facebook.module.css';
+import './facebook.module.css';
 // import { Splash } from '../../..';
 // import getData from '../fetch';
 // import navCore from 'sauveur_elements/nav/navCore'
