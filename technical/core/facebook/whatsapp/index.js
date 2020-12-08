@@ -37,8 +37,7 @@ function core(props) {
     const openLink = () => {
 
         setTimeout( () => {
-            // window.open("https://wa.me/27815206804?text=I'm%20interested%20in%20your",'_system')
-
+        
             window.location = "https://wa.me/27815206804?text=I'm%20interested%20in%20your";
         }, 2000)
 
@@ -48,7 +47,7 @@ function core(props) {
 
     return (
 
-      <a href="#find" className="appearance-none cursor-emoji text-xl lg:text-2xl" onClick={ () => openLink()}>Learn More</a>
+      <a href="#find" className="cursor-emoji appearance-none text-xl lg:text-2xl xl:text-3xl" onClick={ () => openLink()}>Learn More</a>
 
 
     );
