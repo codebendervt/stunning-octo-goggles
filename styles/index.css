@@ -1,10 +1,7 @@
-@import url("https://codebender.azureedge.net/toolbox/style.css");
-
-
-
-/* @import "/coreletts/alice/layouts/control.center/index.css"; */
 
 /* purgecss start ignore */
+@import url("https://codebender.azureedge.net/toolbox/style.css");
+
 @tailwind base;
 
 @tailwind components;
