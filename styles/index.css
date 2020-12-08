@@ -16,6 +16,11 @@
 }
 
 @font-face {
+  font-family: BasierMonoCircleSemiBold;
+  src: url('/font/Basier-Mono/Basier-Mono-Circle-Webfont/basiercirclemono-semibold-webfont.ttf');
+}
+
+@font-face {
   font-family: BasierMonoCircleRegular;
   src: url('/font/Basier-Mono/Basier-Mono-Circle-Webfont/basiercirclemono-regular-webfont.ttf');
 }
@@ -27,6 +32,10 @@
 
 .font-default-title{
   font-family: 'BasierBold', sans-serif
+}
+
+.font-default-paragraph-bold{
+  font-family: 'BasierMonoCircleSemiBold', sans-serif
 }
 
 
