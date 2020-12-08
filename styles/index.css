@@ -39,6 +39,7 @@ button:focus {
   @apply text-white
 }
 
+
 .cursor-emoji {
     cursor: url('/images/index.png'), auto;
 }
