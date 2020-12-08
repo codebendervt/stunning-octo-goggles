@@ -15,7 +15,7 @@ function core(props) {
      //const [state, dispatch] = useReducer(navCore, initialState);
     // const $dd = (type, object, action) => dispatch({type: type, object:object, data:action});
     // const [load, setLoad] = useState(false)
-    // const [animateState, setAnimate] = useState('animated fadeIn');
+     const [animateState, setAnimate] = useState('animated fadeIn');
 
     useEffect(() => {
 
