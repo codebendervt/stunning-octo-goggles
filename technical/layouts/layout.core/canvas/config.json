@@ -1,4 +1,4 @@
 
 {
-    "canvas":"canvas "
+    "canvas":" w-full h-auto flex-grow z-10 relative overflow-auto flex flex-wrap"
 }

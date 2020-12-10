@@ -4,10 +4,19 @@
 
 @tailwind components;
 
+html {
+  scrollbar-width: none;
+}
+
+
 
 @font-face {
   font-family: BasierBold;
   src: url('/font/Basier/Basier Square Webfont/Basier-Square-bold-webfont/basiersquare-bold-webfont.ttf');
+}
+@font-face {
+  font-family: BasierSemiBold;
+  src: url('/font/Basier/Basier Square Webfont/Basier-Square-semibold-webfont/basiersquare-semibold-webfont.ttf');
 }
 
 @font-face {
@@ -32,6 +41,10 @@
 
 .font-default-title{
   font-family: 'BasierBold', sans-serif
+}
+
+.font-default-sub-title{
+  font-family: 'BasierSemiBold', sans-serif
 }
 
 .font-default-paragraph-bold{
