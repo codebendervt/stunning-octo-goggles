@@ -1,5 +1,8 @@
 
 /* purgecss start ignore */
+@import url('/font/Noway/Noway Icons Webfont/Noway-Icons-webfont/stylesheet.css');
+
+
 @tailwind base;
 
 @tailwind components;
@@ -36,10 +39,10 @@ html {
   src: url('/font/Basier-Mono/Basier-Mono-Circle-Webfont/basiercirclemono-regular-webfont.ttf');
 }
 
-@font-face {
+/* @font-face {
   font-family: NowayIcon;
   src: url('/font/Noway/Noway Icons Webfont/Noway-Icons-webfont/noway-icons-webfont.ttf');
-}
+} */
 
 @font-face {
   font-family: Noway;
@@ -75,7 +78,7 @@ html {
 }
 
 .font-icon{
-  font-family: 'NowayIcon', sans-serif
+  font-family: 'noway_icons', sans-serif
 }
 
 
