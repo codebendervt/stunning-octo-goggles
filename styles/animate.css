@@ -3,6 +3,8 @@
 @import '../../node_modules/animate.css/source/sliding_exits/slideOutUp.css';
 @import '../../node_modules/animate.css/source/sliding_exits/slideOutDown.css';
 @import '../../node_modules/animate.css/source/fading_entrances/fadeIn.css';
+@import '../../node_modules/animate.css/source/fading_entrances/fadeInDown.css';
+@import '../../node_modules/animate.css/source/fading_entrances/fadeInUp.css';
 @import '../../node_modules/animate.css/source/fading_exits/fadeOut.css';
 @import '../../node_modules/animate.css/source/back_entrances/backInUp.css';
 @import '../../node_modules/animate.css/source/back_exits/backOutUp.css';
