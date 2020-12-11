@@ -14,6 +14,7 @@ html {
   font-family: BasierBold;
   src: url('/font/Basier/Basier Square Webfont/Basier-Square-bold-webfont/basiersquare-bold-webfont.ttf');
 }
+
 @font-face {
   font-family: BasierSemiBold;
   src: url('/font/Basier/Basier Square Webfont/Basier-Square-semibold-webfont/basiersquare-semibold-webfont.ttf');
@@ -35,9 +36,15 @@ html {
 }
 
 @font-face {
+  font-family: NowayIcon;
+  src: url('/font/Noway/Noway Icons Webfont/Noway-Icons-webfont/noway-icons-webfont.ttf');
+}
+
+@font-face {
   font-family: Noway;
   src: url('/font/Noway/Noway Roman Webfont/Noway-Bold-webfont/noway-bold-webfont.ttf');
 }
+
 
 .font-default-title{
   font-family: 'BasierBold', sans-serif
@@ -64,6 +71,10 @@ html {
 
 .font-default-accent{
   font-family: 'Noway', sans-serif
+}
+
+.font-icon{
+  font-family: 'NowayIcon', sans-serif
 }
 
 

@@ -58,7 +58,7 @@ function element(props) {
 
  
   return (
-    <div className={(!(isflex) ? "flex":"") + " relative justify-"+justify +" h-"+height +" w-"+width + " items-"+items +" m"+m1 +" m"+m2 + " flex-"+flex+" lg:flex-"+flexLG+ " px-"+sPx+" py-"+sPy+" lg:px-"+p1+" lg:py-"+p2 + " " + (props.customCss || "")}>
+    <div id={props.name} className={(!(isflex) ? "flex":"") + " relative justify-"+justify +" h-"+height +" w-"+width + " items-"+items +" m"+m1 +" m"+m2 + " flex-"+flex+" lg:flex-"+flexLG+ " px-"+sPx+" py-"+sPy+" lg:px-"+p1+" lg:py-"+p2 + " " + (props.customCss || "")}>
        {props.children}
     </div>
   );
