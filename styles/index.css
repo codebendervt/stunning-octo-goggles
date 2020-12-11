@@ -5,9 +5,9 @@
 @tailwind components;
 
 html {
+
   scrollbar-width: none;
 }
-
 
 
 @font-face {
