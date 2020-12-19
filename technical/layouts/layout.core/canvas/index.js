@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useReducer,useDebugValue} from 'react';
 import config from './config.json';
-import './index.module.css';
+import './canvas.module.css';
 //import navCore from '../nav/navCore';
 
 

@@ -1,7 +1,6 @@
 
-
 .canvas{
-    @apply w-full h-screen flex-grow z-10 relative overflow-auto  
+    @apply w-full h-screen flex-grow z-10 relative overflow-auto flex 
 }
 
 .canvas::-webkit-scrollbar { width: 0 !important; display: none;}
