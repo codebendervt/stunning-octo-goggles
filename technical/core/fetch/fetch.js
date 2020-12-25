@@ -2,8 +2,11 @@
 
 const getData = async (url, method = "GET", isAPI = false, data = null,key=null,options=null) => {
 
+  let isCustom = false;
   if(options == null){
+    isCustom = true;
     let headers = { 'Content-Type': 'application/json' }
+
     if(key){
       headers = {
         'Content-Type': 'application/json',
@@ -11,7 +14,7 @@ const getData = async (url, method = "GET", isAPI = false, data = null,key=null,
       }
     }
   
-    let options = {
+     options = {
       method:method,
       headers: headers
     }
@@ -19,11 +22,7 @@ const getData = async (url, method = "GET", isAPI = false, data = null,key=null,
     if (method == "POST") {
   
       let body = JSON.stringify(data)
-      options = {
-        method:method,
-        headers : headers,
-        body: body
-      }
+      options.body = body
     }
   
   
@@ -36,15 +35,10 @@ const getData = async (url, method = "GET", isAPI = false, data = null,key=null,
         "Ocp-Apim-Trace": true
       }
   
-      options = {
-        method: method,
-        headers: headers
-      }
+      options.headers = headers
+   
     }
   }
-
-
- 
 
   // Default options are marked with *
   const response = await fetch(url, options
@@ -59,7 +53,7 @@ const getData = async (url, method = "GET", isAPI = false, data = null,key=null,
   //   //body: JSON.stringify(data) // body data type must match "Content-Type" header
   // }
   );
-  if(options ==null){
+  if(isCustom){
     return response.json()
   }else{
     console.log(response)
