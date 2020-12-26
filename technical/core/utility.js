@@ -69,12 +69,12 @@ const setLocalStorage = (name,data) => (localStorage.setItem(name,JSON.stringify
 const getLocalStorage = (name) => {
     let result =[]
     try{
-        result = JSON.parse(localStorage.getItem('user'));
+        result = JSON.parse(localStorage.getItem(name));
     }catch(e){
         console.log(e)
         result = null
     }
-    console.log(result)
+    //console.log(result)
     return result
 };
 

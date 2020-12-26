@@ -1,6 +1,9 @@
 
 /* purgecss start ignore */
 @import url('/font/Noway/Noway Icons Webfont/Noway-Icons-webfont/stylesheet.css');
+@import url('/font/Geomanist/Geomanist-Complete-Webfont/Geomanist-Black-Webfont/stylesheet.css');
+@import url('/font/Geomanist/Geomanist-Complete-Webfont/Geomanist-Book-Webfont/stylesheet.css');
+@import url('/font/Geomanist/Geomanist-Complete-Webfont/Geomanist-Bold-Webfont/stylesheet.css');
 
 
 @tailwind base;
@@ -53,9 +56,17 @@ html {
 .font-default-title{
   font-family: 'BasierBold', sans-serif
 }
+.font-secondary-title{
+  font-family: 'geomanistbold',sans-serif;
+}
+
 
 .font-default-sub-title{
   font-family: 'BasierSemiBold', sans-serif
+}
+
+.font-secondary-sub-title{
+  font-family: 'geomanistblack', sans-serif
 }
 
 .font-default-paragraph-bold{
@@ -120,6 +131,9 @@ button:focus {
   @apply text-white
 }
 
+a {
+  cursor: url('/images/index.png'), auto;
+}
 
 
 
