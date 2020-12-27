@@ -10,3 +10,5 @@ import Alert from './alerts/'
 import {Splash} from './loader'
 
 export {Button, Label, TextList,Card,SmCard,LgCard,InputText,InputNumber,Form,Select,Alert,Splash}
+
+//these components are for commerce products

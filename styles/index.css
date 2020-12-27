@@ -135,6 +135,14 @@ a {
   cursor: url('/images/index.png'), auto;
 }
 
+ input:invalid  {
+  @apply border-r-2 border-red rounded-none
+}
+
+ input:valid  {
+  @apply border-grey
+}
+
 
 
   /* .canvas{
