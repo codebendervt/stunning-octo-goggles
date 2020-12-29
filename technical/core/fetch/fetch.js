@@ -24,6 +24,11 @@ const getData = async (url, method = "GET", isAPI = false, data = null,key=null,
       let body = JSON.stringify(data)
       options.body = body
     }
+
+    if(method == "PUT"){
+      let body = JSON.stringify(data)
+      options.body = body
+    }
   
   
     if (isAPI) {
