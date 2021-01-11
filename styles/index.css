@@ -12,6 +12,13 @@ html {
   @apply bg-black;
   scrollbar-width: none;
 }
+p{
+  @apply my-2
+}
+
+a{
+  font-family: 'Noway', sans-serif;
+}
 
 
 @font-face {
