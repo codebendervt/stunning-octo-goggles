@@ -63,6 +63,19 @@ const states = {
     sChange: "stateChange",
     ssChange: "selectStateChange"
   }
-  
 
-export {$f,$d,$dd,$try,$ls,$gbd,$dls,$setLocalStorage, states}
+
+const setLocalStorage = (name,data) => (localStorage.setItem(name,JSON.stringify(data)));
+const getLocalStorage = (name) => {
+    let result =[]
+    try{
+        result = JSON.parse(localStorage.getItem(name));
+    }catch(e){
+        console.log(e)
+        result = null
+    }
+    //console.log(result)
+    return result
+};
+
+export {$f,$d,$dd,$try,$ls,$gbd,$dls,$setLocalStorage,$lg, states, setLocalStorage, getLocalStorage}
