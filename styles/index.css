@@ -132,7 +132,7 @@ button:focus {
 }
 
 .custom.inactive{
-@apply text-grey
+@apply text-gray
 }
 .custom.inactive:hover{
   @apply text-white
