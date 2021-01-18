@@ -14,7 +14,7 @@ export default {
     btn: "font-default-accent text-xl lg:text-2xl cursor-emoji flex items-center justify-center",
     icon: "mx-2 font-icon text-3xl lg:text-3xl flex h-12 items-center",
     app_center: app_center,
-    app_flow: "w-screen h-screen flex flex-col text-white items-center",
+    app_flow: "w-screen h-screen flex flex-col items-center",
     test: `${app_center} `
 
 }

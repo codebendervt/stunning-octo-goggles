@@ -38,6 +38,11 @@ a{
   @apply font-black text-2xl
 }
 
+.font-sub-title{
+  font-family: 'Montserrat', sans-serif;
+  @apply font-medium
+}
+
 .font-default-accent{
   font-family: 'Noway', sans-serif
 }
@@ -109,6 +114,10 @@ a {
     @apply font-black text-6xl w-5/12 leading-tight
   }
   
+  .background{
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+  }
 
  }
 

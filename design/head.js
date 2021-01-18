@@ -15,7 +15,7 @@ export default function Header(props) {
             <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' />
 
             <meta property="og:type" content="website" />
-            <meta property="og:title" content="Sauveur Backpack" />
+            <meta property="og:title" content={props.title} />
             <meta property="og:description" content="Yout Digital Backpack" />
             <meta
                 property="og:image"
@@ -30,7 +30,7 @@ export default function Header(props) {
             <meta name="mobile-web-app-capable" content="yes"/>
             <meta name="apple-mobile-web-app-capable" content="yes"/>
             <meta name="apple-mobile-web-app-status-bar-style" content="default"/> 
-            <meta name="apple-mobile-web-app-title" content="Sauveur"/>
+            <meta name="apple-mobile-web-app-title" content={props.title} />
 
             {/* Global site tag (gtag.js) - Google Analytics  */}
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-GV7Q7VQ7M6"></script>

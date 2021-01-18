@@ -29,6 +29,9 @@ const getData = async (url, method = "GET", isAPI = false, data = null,key=null,
       let body = JSON.stringify(data)
       options.body = body
     }
+    if(method == "All"){
+      
+    }
   
   
     if (isAPI) {
@@ -59,6 +62,7 @@ const getData = async (url, method = "GET", isAPI = false, data = null,key=null,
   // }
   );
   if(isCustom){
+    console.log(response)
     return response.json()
   }else{
     console.log(response)
