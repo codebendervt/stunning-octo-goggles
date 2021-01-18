@@ -29,7 +29,7 @@
 }
 
 .default.inactive {
-    @apply  text-gray ;
+    @apply  text-grey;
 }
 
 
