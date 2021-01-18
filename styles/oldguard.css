@@ -1,0 +1,120 @@
+
+/* purgecss start ignore */
+@import url('/font/Noway/Noway Icons Webfont/Noway-Icons-webfont/stylesheet.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+
+
+@tailwind base;
+
+@tailwind components;
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  scrollbar-width: none;
+}
+
+p{
+  @apply p-2
+}
+
+a{
+  font-family: 'Noway', sans-serif;
+}
+
+
+@font-face {
+  font-family: Noway;
+  src: url('/font/Noway/Noway Roman Webfont/Noway-Bold-webfont/noway-bold-webfont.ttf');
+}
+
+
+.font-title{
+  font-family: 'Montserrat', sans-serif;
+  @apply font-black text-2xl w-7/12
+}
+
+.font-logo{
+  font-family: 'Montserrat', sans-serif;
+  @apply font-black text-2xl
+}
+
+.font-default-accent{
+  font-family: 'Noway', sans-serif
+}
+
+.font-icon{
+  font-family: 'noway_icons', sans-serif
+}
+
+
+.cursor-emoji {
+  cursor: url('/images/index.png'), auto;
+}
+
+
+
+/* body{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} */
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.custom.active{
+@apply text-white
+}
+
+.custom.inactive{
+@apply text-black
+}
+.custom.inactive:hover{
+  @apply text-white
+}
+
+a {
+  cursor: url('/images/index.png'), auto;
+}
+
+ input:invalid  {
+  @apply border-r-2 border-red-500 rounded-none
+}
+
+ input:valid  {
+  @apply border-gray-100
+}
+
+
+
+/* Small (sm) */
+@media (min-width: 640px) { /* ... */ }
+
+/* Medium (md) */
+@media (min-width: 768px) { 
+
+ }
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  .font-title{
+    font-family: 'Montserrat', sans-serif;
+    @apply font-black text-6xl w-5/12 leading-tight
+  }
+  
+
+ }
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) { /* ... */ }
+
+/* purgecss end ignore */
+
+@tailwind utilities;
