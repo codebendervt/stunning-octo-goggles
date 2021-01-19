@@ -132,7 +132,7 @@ button:focus {
 }
 
 .custom.inactive{
-@apply text-gray
+@apply text-grey
 }
 .custom.inactive:hover{
   @apply text-white
@@ -147,7 +147,7 @@ a {
 }
 
  input:valid  {
-  @apply border-gray
+  @apply border-grey
 }
 
 
