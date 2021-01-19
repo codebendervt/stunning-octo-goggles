@@ -1,21 +1,11 @@
 import { useRouter } from 'next/router'
-import {useEffect,useState} from 'react' 
+
 
 
 export default function Toolbar(props) {
     const router = useRouter()
 
-    useEffect(() => {
-      
-        document.addEventListener('swiped-right', function(e) {
-            console.log(e.target); // the element that was swiped
-            console.log(e.detail.dir); // swiped direction
-           
-        });
-        return () => {
-            console.log('Clean up')
-        }
-    }, [])
+
     return (
 
 

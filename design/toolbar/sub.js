@@ -1,7 +1,18 @@
+import { useEffect } from 'react'
 
+export default function SubToolbar({list}) {
 
-export default function SubToolbar(props) {
+    useEffect(() => {
 
+        document.addEventListener('swiped-right', function (e) {
+            console.log(e.target); // the element that was swiped
+            console.log(e.detail.dir); // swiped direction
+
+        });
+        return () => {
+            console.log('Clean up')
+        }
+    }, [])
 
     const SmallCard = () => {
         return (
@@ -11,11 +22,17 @@ export default function SubToolbar(props) {
             </div>
         )
     }
+
     return (
 
 
         <div className="w-full h-32 flex flex-row py-3 lg:p-4">
-            <SmallCard />
+            {
+                list.map((i)=> {
+                    <SmallCard />
+                })
+            }
+           
         </div>
 
     )
