@@ -147,7 +147,7 @@ a {
 }
 
  input:valid  {
-  @apply border-grey
+  @apply border-gray
 }
 
 
