@@ -44,7 +44,7 @@ export default function SubToolbar({list,landing}) {
     return (
 
 
-        <div className="w-full h-32 flex flex-row py-3 lg:p-4">
+        <div className="w-full h-auto flex flex-row py-3 lg:p-4">
             {
                 list.map((i,k) => <SmallCard key={k} name={i}  />)
             }
