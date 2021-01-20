@@ -26,7 +26,7 @@ export default function SubToolbar({list,landing}) {
 
     const handleClick = (active) => {
 
-        router.push(`${landing}/${active}?active=${active}`)
+        router.push(`${landing}/${active}`)
       }
 
 

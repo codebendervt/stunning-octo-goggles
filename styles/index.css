@@ -150,6 +150,14 @@ a {
   @apply border-grey
 }
 
+textarea:invalid  {
+  @apply border-r-2 border-red rounded-none
+}
+
+textarea:valid  {
+  @apply border-grey
+}
+
 
 
   /* .canvas{
