@@ -6,7 +6,7 @@ const getData = async (url, method = "GET", isAPI = false, data = null,key=null,
   if(options == null){
     isCustom = true;
     let headers = { 'Content-Type': 'application/json' }
-
+   
     if(key){
       headers = {
         'Content-Type': 'application/json',
@@ -48,6 +48,8 @@ const getData = async (url, method = "GET", isAPI = false, data = null,key=null,
     }
   }
 
+  //console.log('the options your posting to ',options)
+
   // Default options are marked with *
   const response = await fetch(url, options
   //   {
@@ -62,10 +64,10 @@ const getData = async (url, method = "GET", isAPI = false, data = null,key=null,
   // }
   );
   if(isCustom){
-    console.log(response)
+    //console.log(response)
     return response.json()
   }else{
-    console.log(response)
+    //console.log(response)
     return response.statusText
   }
 
