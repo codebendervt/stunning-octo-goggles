@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 
-export default function SubToolbar({list,landing}) {
+export default function SubToolbar({ list, landing }) {
     const router = useRouter();
     const [count, setCount] = useState(0)
+    const [animate, setAnimate] = useState('')
 
     useEffect(() => {
 
@@ -25,16 +26,18 @@ export default function SubToolbar({list,landing}) {
     }, [])
 
     const handleClick = (active) => {
-
+        
+        setAnimate('animate-pulse')
         router.push(`${landing}/${active}`)
-      }
+   
+    }
 
 
-    const SmallCard = ({name}) => {
+    const SmallCard = ({ name }) => {
         return (
             <div onClick={() => handleClick(name)} className=" w-1/3 lg:w-36 h-16 p-2">
-                <div className="w-full h-full rounded shadow-md lg:shadow hover:shadow-none bg-gray-800 hover:bg-gray-900 text-center items-center flex justify-center text-xl font-default-title cursor-emoji capitalize ">
-                  {name}
+                <div className={"w-full h-full rounded shadow-md lg:shadow hover:shadow-none bg-gray-800 hover:bg-gray-900 text-center items-center flex justify-center text-xl font-default-title cursor-emoji capitalize " + animate}>
+                    {name}
                 </div>
 
             </div>
@@ -46,9 +49,9 @@ export default function SubToolbar({list,landing}) {
 
         <div className="w-full h-auto flex flex-row py-3 lg:p-4">
             {
-                list.map((i,k) => <SmallCard key={k} name={i}  />)
+                list.map((i, k) => <SmallCard key={k} name={i} />)
             }
-           
+
         </div>
 
     )
