@@ -15,6 +15,10 @@ html {
   @apply bg-black;
   scrollbar-width: none;
 }
+#__next::-webkit-scrollbar {
+  display: none;
+}
+
 p{
   @apply my-2
 }
