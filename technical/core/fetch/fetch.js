@@ -36,8 +36,7 @@ const getData = async (url, method = "GET", isAPI = false, data = null, key = nu
     }
 
     if (method == "GET") {
-      let body = JSON.stringify(data)
-      if (body != null) {
+      if (data != null) {
         url = url + "?id=" +data.id
       }
 
@@ -63,7 +62,6 @@ const getData = async (url, method = "GET", isAPI = false, data = null, key = nu
   }
 
   //console.log('the options your posting to ',options)
-
   // Default options are marked with *
   const response = await fetch(url, options
     //   {
