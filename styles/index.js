@@ -5,7 +5,7 @@ const center = "items-center justify-center";
 
 export default {
     input : "appearance-none w-full px-2 placeholder-grey bg-transparent text-lg lg:text-2xl m-2 font-default-regular",
-    input_border : "border-l-2 border-white input-border max-w-md flex items-center",
+    input_border : "border-l-2 border-white input-border max-w-xl flex items-center",
     title : "font-default-title text-5xl",
     form_button : "text-2xl font-default-accent disabled:opacity-50 disabled:text-grey appearance-none",
     form_submit:"w-full  bg-transparent text-whitek justify-center lg:justify-end flex lg:text-2xl font-default-accent  lg:px-2 cursor-emoji",

@@ -57,6 +57,9 @@ a{
 }
 
 
+.image {
+  background-size:cover
+}
 
 /* body{
   -webkit-touch-callout: none;
