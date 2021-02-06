@@ -66,6 +66,8 @@ a{
   background-size:cover
 }
 
+
+
 /* body{
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -104,11 +106,15 @@ a {
  input:valid  {
   @apply border-gray-100
 }
-
+.height-image{
+  height: 36rem;
+}
 
 
 /* Small (sm) */
-@media (min-width: 640px) { /* ... */ }
+@media (min-width: 640px) {
+ 
+ }
 
 /* Medium (md) */
 @media (min-width: 768px) { 
@@ -120,6 +126,10 @@ a {
   .font-title{
     font-family: 'Montserrat', sans-serif;
     @apply font-black text-6xl w-5/12 leading-tight
+  }
+
+  .height-image{
+    @apply  h-3/4
   }
   
   .background{
