@@ -43,7 +43,7 @@ const $gbd = (name) => {
     }
 }
 
-const $dls = (name) => (sessionStorage.removeItem(name));
+const $deleteStorage = (name) => (sessionStorage.removeItem(name));
 
 //#endregion
 
@@ -78,4 +78,4 @@ const getLocalStorage = (name) => {
     return result
 };
 
-export {$f,$d,$dd,$try,$ls,$gbd,$dls,$setLocalStorage,$getLocalStorage, states, setLocalStorage, getLocalStorage}
+export {$f,$d,$dd,$try,$ls,$gbd,$setLocalStorage,$getLocalStorage,$deleteStorage, states, setLocalStorage, getLocalStorage}
