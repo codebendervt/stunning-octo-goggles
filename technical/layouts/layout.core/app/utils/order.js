@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useReducer, useDebugValue } from 'react';
 import { Canvas, Plane, Stage, Space, ControlCenter, Label, LgCard, Button,Bucket } from '../../../../';
-import { $f, $gbd,$dls,$try,$setLocalStorage } from '../../../../core/utility';
+import { $f, $gbd,$deleteStorage,$try,$setLocalStorage } from '../../../../core/utility';
 //import config from './config.json';
 //import './index.css';
 //import { $f } from '../../../core/utility';
@@ -130,7 +130,7 @@ function content(props) {
         data.splice(index, 1);
         setData(data);
         setLength(data.length);
-        $try( () => $dls('cart'),"unable to update cart");
+        $try( () => $deleteStorage('cart'),"unable to update cart");
         $setLocalStorage('cart',data);
     }
 
@@ -197,3 +197,5 @@ function content(props) {
 
 
 export default content;
+
+// why
