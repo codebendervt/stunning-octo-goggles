@@ -1,0 +1,13 @@
+
+/* purgecss start ignore */
+
+@import url('./utils.css');
+
+@tailwind base;
+
+@tailwind components;
+
+
+/* purgecss end ignore */
+
+@tailwind utilities;
