@@ -4,6 +4,7 @@
 @import url('/font/Geomanist/Geomanist-Complete-Webfont/Geomanist-Black-Webfont/stylesheet.css');
 @import url('/font/Geomanist/Geomanist-Complete-Webfont/Geomanist-Book-Webfont/stylesheet.css');
 @import url('/font/Geomanist/Geomanist-Complete-Webfont/Geomanist-Bold-Webfont/stylesheet.css');
+
 @import url('./utils.css');
 
 @tailwind base;

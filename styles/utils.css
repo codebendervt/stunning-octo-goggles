@@ -33,3 +33,7 @@ a {
 .hidescroll::-webkit-scrollbar {
   display: none;
 }
+
+h1 {
+  font-family: 'BasierBold', sans-serif
+}
