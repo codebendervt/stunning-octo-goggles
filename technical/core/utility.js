@@ -21,11 +21,11 @@ const $ls = (data) => {
 
 }
 
-const $setLocalStorage = (name, data) => (sessionStorage.setItem(name, JSON.stringify({result:data})))
+const $setLocalStorage = (name, data) => (sessionStorage.setItem(name, JSON.stringify(data)))
     
  
 
-const $lg = (name) => {
+const $getLocalStorage = (name) => {
     let result =[]
     try{
         result = JSON.parse(sessionStorage.getItem(name))
@@ -43,7 +43,7 @@ const $gbd = (name) => {
     }
 }
 
-const $dls = (name) => (sessionStorage.removeItem(name));
+const $deleteStorage = (name) => (sessionStorage.removeItem(name));
 
 //#endregion
 
@@ -78,4 +78,4 @@ const getLocalStorage = (name) => {
     return result
 };
 
-export {$f,$d,$dd,$try,$ls,$gbd,$dls,$setLocalStorage,$lg, states, setLocalStorage, getLocalStorage}
+export {$f,$d,$dd,$try,$ls,$gbd,$setLocalStorage,$getLocalStorage,$deleteStorage, states, setLocalStorage, getLocalStorage}

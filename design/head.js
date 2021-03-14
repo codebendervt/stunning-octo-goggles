@@ -35,6 +35,7 @@ export default function Header(props) {
             {/* Global site tag (gtag.js) - Google Analytics  */}
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-GV7Q7VQ7M6"></script>
             <script async src="/scripts/ga.js"></script><link href="/manifest.json" rel="manifest"></link>
+            <script async src="/scripts/swipe.js"></script>
             {/* <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.12/lib/sortable.js"></script> */}
         </Head>
 

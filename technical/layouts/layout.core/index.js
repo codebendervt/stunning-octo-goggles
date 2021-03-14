@@ -16,4 +16,4 @@ import App from './app'
 
 
 
-export {Easel,Plane,Canvas,ControlCenter,App};
+// export {Easel,Plane,Canvas,ControlCenter,App};

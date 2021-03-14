@@ -5,6 +5,7 @@
 @import url('/font/Geomanist/Geomanist-Complete-Webfont/Geomanist-Book-Webfont/stylesheet.css');
 @import url('/font/Geomanist/Geomanist-Complete-Webfont/Geomanist-Bold-Webfont/stylesheet.css');
 
+@import url('./utils.css');
 
 @tailwind base;
 
@@ -12,9 +13,13 @@
 
 html {
 
-  @apply bg-black;
+  @apply bg-black text-white;
   scrollbar-width: none;
 }
+#__next::-webkit-scrollbar {
+  display: none;
+}
+
 p{
   @apply my-2
 }
@@ -127,12 +132,28 @@ textarea:focus,
 button:focus {
     outline: none;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+textarea {
+  resize: none;
+}
+
 .custom.active{
 @apply text-white
 }
 
 .custom.inactive{
-@apply text-gray
+@apply text-grey
 }
 .custom.inactive:hover{
   @apply text-white
@@ -149,6 +170,16 @@ a {
  input:valid  {
   @apply border-grey
 }
+
+textarea:invalid  {
+  @apply border-r-2 border-red rounded-none
+}
+
+textarea:valid  {
+  @apply border-grey
+}
+
+
 
 
 
