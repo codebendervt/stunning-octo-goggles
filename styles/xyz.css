@@ -35,6 +35,10 @@ a{
 
 .font-title{
   font-family: 'sawton_circularbold', sans-serif;
+}
+
+.font-title-styled{
+  font-family: 'sawton_circularbold', sans-serif;
   @apply font-black text-2xl w-7/12
 }
 
