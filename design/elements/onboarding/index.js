@@ -66,7 +66,7 @@ export default function Onboarding({ content, submitUrl }) {
                             }
 
                             {
-                                page >= 1 ? <div className="font-default-accent cursor-emoji mx-2" onClick={handleBack}>back</div> : <></>
+                                page >= 1 ? <div className="font-default-accent cursor-emoji mx-4 lg:mx-2" onClick={handleBack}>back</div> : <></>
                             }
 
 
