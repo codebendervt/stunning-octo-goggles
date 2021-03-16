@@ -1,9 +1,6 @@
 
 /* purgecss start ignore */
 @import url('/font/Noway/Noway Icons Webfont/Noway-Icons-webfont/stylesheet.css');
-
-
-
 @import url('./utils.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
 
@@ -26,7 +23,6 @@ a{
   font-family: 'Noway', sans-serif;
 }
 
-
 @font-face {
   font-family: Noway;
   src: url('/font/Noway/Noway Roman Webfont/Noway-Bold-webfont/noway-bold-webfont.ttf');
@@ -36,6 +32,15 @@ a{
 .font-title{
   font-family: 'Montserrat', sans-serif;
   @apply font-black text-2xl w-7/12
+}
+.font-default-title{
+  font-family: 'BasierBold', sans-serif;
+  @apply font-black
+}
+
+.font-default-text{
+  font-family: 'BasierRegular', sans-serif;
+  @apply font-black
 }
 
 .font-logo{
