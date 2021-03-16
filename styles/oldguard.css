@@ -66,6 +66,10 @@ a{
   background-size:cover
 }
 
+.link{
+   font-family: 'Noway', sans-serif;
+  cursor: url('/images/index.png'), auto;
+}
 
 
 /* body{
