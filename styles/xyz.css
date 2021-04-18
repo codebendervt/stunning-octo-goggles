@@ -3,6 +3,7 @@
 @import url('/font/Noway/Noway Icons Webfont/Noway-Icons-webfont/stylesheet.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
 @import url('/font/Sawton Complete Webfont/Sawton-Circular-Webfont/stylesheet.css');
+@import url('/font/Sawton Complete Webfont/Sawton-Bauhaus-Webfont/stylesheet.css');
 
 @tailwind base;
 
@@ -11,6 +12,7 @@
 html {
   font-family: 'Montserrat', sans-serif;
   scrollbar-width: none;
+  @apply bg-black
 }
 
 p{
@@ -58,6 +60,10 @@ a{
 
 .font-paragraph{
     font-family: 'sawton_bauhausregular',sans-serif;
+}
+
+.font-seconday-paragraph{
+  font-family: 'sawton_bauhausmedium',sans-serif;
 }
 
 .font-default-accent{
