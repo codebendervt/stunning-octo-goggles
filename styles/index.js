@@ -4,7 +4,7 @@ const row = "w-full h-auto flex flex-row  p-4";
 const center = "items-center justify-center"; 
 
 export default {
-    input : "appearance-none w-full my-2 px-2 lg:px-2 placeholder-grey bg-transparent text-lg lg:text-2xl lg:m-2 font-default-regular",
+    input : "appearance-none w-full my-2 px-2 lg:px-2 placeholder-grey bg-transparent text-sm lg:text-xl lg:m-2 font-default-regular",
     input_border : "border-l-2 border-white input-border max-w-xl flex items-center",
     title : "font-default-title text-3xl lg:text-5xl lg:px-0 ",
     form_button : "text-2xl font-default-accent disabled:opacity-50 disabled:text-grey appearance-none cursor-emoji",
