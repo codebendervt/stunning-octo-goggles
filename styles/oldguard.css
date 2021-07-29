@@ -6,13 +6,13 @@
 
 @import url('./utils.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 
 @tailwind base;
 
 @tailwind components;
 html {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   scrollbar-width: none;
 }
 #__next::-webkit-scrollbar {
@@ -26,6 +26,9 @@ a{
   font-family: 'Noway', sans-serif;
 }
 
+.menu-title{
+  padding-left: 2px;
+}
 
 @font-face {
   font-family: Noway;
@@ -34,17 +37,17 @@ a{
 
 
 .font-title{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   @apply font-black text-2xl w-7/12
 }
 
 .font-logo{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   @apply font-black text-2xl
 }
 
 .font-sub-title{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   @apply font-medium
 }
 
