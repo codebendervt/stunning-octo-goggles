@@ -1,9 +1,6 @@
 
 /* purgecss start ignore */
 @import url('/font/Noway/Noway Icons Webfont/Noway-Icons-webfont/stylesheet.css');
-
-
-
 @import url('./utils.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
@@ -40,6 +37,15 @@ a{
   font-family: 'Ubuntu', sans-serif;
   @apply font-black text-2xl w-7/12
 }
+.font-default-title{
+  font-family: 'BasierBold', sans-serif;
+  @apply font-black
+}
+
+.font-default-text{
+  font-family: 'BasierRegular', sans-serif;
+  @apply font-black
+}
 
 .font-logo{
   font-family: 'Ubuntu', sans-serif;
@@ -69,6 +75,10 @@ a{
   background-size:cover
 }
 
+.link{
+   font-family: 'Noway', sans-serif;
+  cursor: url('/images/index.png'), auto;
+}
 
 
 /* body{

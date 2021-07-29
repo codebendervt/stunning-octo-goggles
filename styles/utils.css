@@ -1,3 +1,14 @@
+@font-face {
+  font-family: BasierRegular;
+  src: url('/font/Basier/Basier Square Webfont/Basier-Square-regular-webfont/basiersquare-regular-webfont.ttf');
+}
+@font-face {
+  font-family: BasierBold;
+  src: url('/font/Basier/Basier Square Webfont/Basier-Square-bold-webfont/basiersquare-bold-webfont.ttf');
+}
+
+
+
 input:focus,
 select:focus,
 textarea:focus,
